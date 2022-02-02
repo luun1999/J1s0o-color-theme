@@ -1,14 +1,19 @@
 {
     "name": "j1s0o-code",
     "displayName": "J1s0o code",
+    "publisher": "J1s0o",
     "description": "",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.63.0"
+        "vscode": "^1.9.0"
     },
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/luun1999/J1s0o-color-theme"
+    },
     "contributes": {
         "themes": [
             {
@@ -18,7 +23,11 @@
             }
         ]
     },
-    "devDependencies": {
-        "esbuild": "^0.14.16"
-    }
+    "keywords": [
+        "dark theme",
+        "j1s0o",
+        "j1s0o theme",
+        "blue",
+        "red"
+    ]
 }
