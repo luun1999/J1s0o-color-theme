@@ -2,13 +2,21 @@
 	"name": "J10o Dark Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#212121",
-		"editor.foreground": "#eeffff",
 		"tab.activeBorderTop": "#007acc",
+		"tab.activeBackground": "#061c1c",
+		"tab.inactiveBackground": "#0a3838",
 		"gitDecoration.modifiedResourceForeground": "#b9b466",
 		"activityBarBadge.background": "#e22e73d9",
-		"activityBar.background": "#1255554d",
+		"activityBar.background": "#061c1c",
+		"statusBar.background": "#0a3838",
 		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#061c1c",
+		"sideBarSectionHeader.background": "#0a3838",
+		"editorGroupHeader.tabsBackground": "#061c1c",
+		"editorGutter.background": "#061c1c",
+		"editor.background": "#061c1c",
+		"editor.foreground": "#eeffff",
+		"titleBar.activeBackground": "#061c1c",
 	},
 	"tokenColors": [
 		{
@@ -59,7 +67,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#BF85FF"
+				"foreground": "#B252DC"
 			}
 		},
 		{
@@ -90,7 +98,7 @@
 				"punctuation.support.type.property-name.end"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#a579d5"
 			}
 		},
 		{
@@ -171,6 +179,26 @@
 			],
 			"settings": {
 				"foreground": "#FF6E6B"
+			}
+		},
+		{
+			"name": "Constant Array, Constant Object",
+			"scope": [
+				"meta.array-binding-pattern-variable variable.other.constant",
+				"meta.object-binding-pattern-variable variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#D2AAA2",
+			}
+		},
+		{
+			"name": "Export Default",
+			"scope": [
+				"meta.export.default variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#D2AAA2",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -274,7 +302,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B252DC"
 			}
 		},
 		{
@@ -330,7 +358,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B252DC"
 			}
 		},
 		{
@@ -389,7 +417,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B252DC"
 			}
 		},
 		{
@@ -408,7 +436,7 @@
 				"text.html.markdown markup.inline.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B252DC"
 			}
 		},
 		{
@@ -510,7 +538,7 @@
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B252DC"
 			}
 		},
 		{
@@ -528,7 +556,7 @@
 				"markup.raw.block"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B252DC"
 			}
 		},
 		{
